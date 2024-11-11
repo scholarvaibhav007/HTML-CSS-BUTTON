@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 19, 19);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* color: aqua; */
+}
+.button-border{
+    background: linear-gradient(150deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83);
+    padding: 5px;
+    /* color: #000000; */
+}
+button{
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 2em 2em;
+    letter-spacing: .1em;
+    border-image:linear-gradient(150deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83); ;
+
+}
+.button-border:hover{
+    background: linear-gradient(230deg,#ce4993,#6a0d83,#ee5d6c,#eeaf61,#fb9062);
+}
+/* .button-border:hover.button{
+    color: btn color(from color srgb r g b);
+    padding: 1.2em,1.6em;
+} */
